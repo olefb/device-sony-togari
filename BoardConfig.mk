@@ -14,6 +14,8 @@
 
 include device/sony/rhine/PlatformConfig.mk
 
+TARGET_SPECIFIC_HEADER_PATH += device/sony/togari/include
+
 TARGET_BOOTLOADER_BOARD_NAME := C6833
 
 BOARD_KERNEL_CMDLINE += androidboot.hardware=togari
